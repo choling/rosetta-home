@@ -92,12 +92,24 @@
 3. Apply the setting  
 `boinccmd --read_global_prefs_override` 
 
-4.
+4. Reduce the amount of RAM available to GPU
+`sudo raspi-config`  
+then  
+Advanced Options -> Memory split -> 16MB  
 
- BOINC manager configuration  
-`Menu->System Tools->Boinc Manager`
 
+### Finally
+ 
+"Rosetta needs 1900 MB RAM but only 966MB is available for use"
+RPi 3B+ is configured, however there is not enough RAM to run the project. :(
+RPi 4 should be considered, 
 
 
 ## Reference
-1.
+1. [reddit](https://www.reddit.com/r/BOINC/comments/g0r0wa/running_rosetta_covid19_workunits_on_raspberry_pi/)
+2. [Rosetta@Home](https://boinc.bakerlab.org/)
+3. [Install BOINC}(https://pimylifeup.com/raspberry-pi-boinc/)
+4. [RPi projects](https://projects.raspberrypi.org/en/)
+5. [RPi 4B 8Gb](https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1822098/)
+6. [RPi blog](https://www.rs-online.com/designspark/aipidentifier-cn)
+
