@@ -108,7 +108,7 @@ RPi 4 should be considered,
 ## Reference
 1. [reddit](https://www.reddit.com/r/BOINC/comments/g0r0wa/running_rosetta_covid19_workunits_on_raspberry_pi/)
 2. [Rosetta@Home](https://boinc.bakerlab.org/)
-3. [Install BOINC}(https://pimylifeup.com/raspberry-pi-boinc/)
+3. [Install BOINC](https://pimylifeup.com/raspberry-pi-boinc/)
 4. [RPi projects](https://projects.raspberrypi.org/en/)
 5. [RPi 4B 8Gb](https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1822098/)
 6. [RPi blog](https://www.rs-online.com/designspark/aipidentifier-cn)
