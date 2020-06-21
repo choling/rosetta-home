@@ -112,4 +112,4 @@ RPi 4 should be considered,
 4. [RPi projects](https://projects.raspberrypi.org/en/)
 5. [RPi 4B 8Gb](https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1822098/)
 6. [RPi blog](https://www.rs-online.com/designspark/aipidentifier-cn)
-
+7. [RPi and block chain](https://www.rs-online.com/designspark/1-cn-2)
