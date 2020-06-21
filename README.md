@@ -113,3 +113,4 @@ RPi 4 should be considered,
 5. [RPi 4B 8Gb](https://hken.rs-online.com/web/p/processor-microcontroller-development-kits/1822098/)
 6. [RPi blog](https://www.rs-online.com/designspark/aipidentifier-cn)
 7. [RPi and block chain](https://www.rs-online.com/designspark/1-cn-2)
+8. [RPi and GETH](https://kauri.io/running-an-ethereum-full-node-on-a-raspberrypi-4-m/9695fcca217f46feb355245275835fc0/a)
