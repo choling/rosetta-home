@@ -12,7 +12,7 @@
 
 2. Install BOINC GUI
 `sudo apt-get install boinc`
-
+`sudo apt-get install boinctui
 3. Create and configure `zram.sh` in `/usr/bin/`
 
 4. Make `zram.sh` executable
@@ -61,10 +61,41 @@
 3. Restart BOINC to pick up this change  
 `sudo systemctl restart boinc-client`
 
+### Force BOINC to use more memory
+1. Open the file with BOINC settings  
+`sudo nano /etc/boinc-client/global_prefs_override.xml`  
 
+2. Insert the following lines
+```xml
+<global_preferences>
+<run_if_user_active>1</run_if_user_active>
+<suspend_cpu_usage>100.000000</suspend_cpu_usage>
+<leave_apps_in_memory>0</leave_apps_in_memory>
+<confirm_before_connecting>0</confirm_before_connecting>
+<hangup_if_dialed>0</hangup_if_dialed>
+<dont_verify_images>0</dont_verify_images>
+<work_buf_min_days>0.700000</work_buf_min_days>
+<work_buf_additional_days>0.300000</work_buf_additional_days>
+<max_ncpus_pct>100.000000</max_ncpus_pct>
+<cpu_scheduling_period_minutes>60.000000</cpu_scheduling_period_minutes>
+<disk_interval>60.000000</disk_interval>
+<disk_max_used_gb>100.000000</disk_max_used_gb>
+<disk_max_used_pct>100.000000</disk_max_used_pct>
+<disk_min_free_gb>0.100000</disk_min_free_gb>
+<vm_max_used_pct>90.000000</vm_max_used_pct>
+<ram_max_used_busy_pct>300.000000</ram_max_used_busy_pct>
+<ram_max_used_idle_pct>300.000000</ram_max_used_idle_pct>
+<cpu_usage_limit>100.000000</cpu_usage_limit>
+</global_preferences> 
+```  
+
+3. Apply the setting  
+`boinccmd --read_global_prefs_override` 
+
+4.
 
  BOINC manager configuration  
-`Menu->System Tools->Boinc Manager'
+`Menu->System Tools->Boinc Manager`
 
 
 
